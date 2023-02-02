@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/daniel-leone-g30P1zcOzXo-unsplash\ \(1\).jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -272,13 +272,58 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume .info2 {
+   font: 14px/21px 'librebaskerville-bold', serif;
+   color: #6E7881;
+   margin-bottom: 9px;
+   margin-top: 9px;
+}
+#resume .coursework {
+   font: 14px/21px 'opensans-regular', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'librebaskerville-italic', sans-serif;
    margin-top: 6px;
+}
+
+.relevantCoursework {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+/* .relevantCourseworkList {
+   margin-right: 20px;
+} */
+
+.skills {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.skillsListItem {
+   margin-right: 20px;
+}
+
+.achievementList {
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   margin-bottom: 21px;
+}
+
+.achievementList p {
+   margin-bottom: 5px;
 }
 
 /*----------------------------------------------*/
@@ -293,15 +338,15 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars .skills {
   	margin-top: 36px;
-   list-style: none;
+   /* list-style: none; */
 }
-.bars li {
+/* .bars li {
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
   	border-radius: 3px;
-}
+} */
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
@@ -414,6 +459,7 @@ ul#nav li.current a { color: #F06000; }
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   height: auto;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -490,11 +536,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 18px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 14px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }

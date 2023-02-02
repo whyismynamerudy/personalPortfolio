@@ -21,9 +21,32 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
+                          <p className='info2'>Relevent Coursework: </p>
+                          {/* <span className='coursework'>{item.ReleventCoursework}</span> */}
+                          <ul className="relevantCoursework">
+                            {item.ReleventCoursework.map((item) => {
+                              return(
+                                <li className='relevantCourseworkList'>
+                                {/* <span className={`bar-expand ${item.skillname.toLowerCase()}`}> */}
+                                <em>{item.name}&nbsp;</em>
+                                </li>
+                              )
+                              })
+                            }
+                          </ul> 
+                          <p className='info2'>Achievements: </p>  
+                          <ul className="uniAchievements">
+                            {item.Achievements.map((item) => {
+                              return(
+                                <li>
+                                  <em>{item.achievement}</em>
+                                </li>
+                              )
+                            })}
+                          </ul>                  
+                          {/* <p>
                           {item.Achievements}
-                          </p>
+                          </p> */}
                        </div>
                     </div>
                   )
@@ -46,9 +69,25 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          {/* <ul className="workAchievements">
+                            {item.Achievements.map((item) => {
+                              return(
+                                <li>
+                                  {item.Achievement}
+                                </li>
+                              )
+                            })}
+                          </ul> */}
+                          <div className="achievementList">
+                          {item.Achievements.map((item) => {
+                            return (
+                              <p >
+                              {item.Achievement}
+                              </p>
+                            )
+                          })}
+                          </div>
+                          
                        </div>
 
                     </div>
@@ -69,18 +108,40 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
 
                <p>
-               {resumeData.skillsDescription}
+               {resumeData.progDescription}
                </p>
 
    				<div className="bars">
 
    				   <ul className="skills">
                 {
-                  resumeData.skills && resumeData.skills.map((item) => {
+                  resumeData.prog && resumeData.prog.map((item) => {
                     return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <li className='skillsListItem'>
+                      {/* <span className={`bar-expand ${item.skillname.toLowerCase()}`}> */}
+                      <em>{item.skillname}</em>
+                      </li>
+                    )
+                  })
+                }
+
+   					</ul>
+
+   				</div>
+
+           <p>
+               {resumeData.frameworkDescription}
+               </p>
+
+   				<div className="bars">
+
+   				   <ul className="skills">
+                {
+                  resumeData.framework && resumeData.framework.map((item) => {
+                    return(
+                      <li className='skillsListItem'>
+                      {/* <span className={`bar-expand ${item.skillname.toLowerCase()}`}> */}
+                      <em>{item.skillname}</em>
                       </li>
                     )
                   })
