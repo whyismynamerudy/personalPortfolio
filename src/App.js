@@ -7,10 +7,17 @@ import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import {Helmet} from "react-helmet";
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+              <meta charSet="utf-8" />
+              <title>Rudraksh Monga</title>
+              <link rel="canonical" href="http://whyismynamerudy.tech" />
+        </Helmet>
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
