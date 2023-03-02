@@ -66,7 +66,10 @@ let resumeData = {
         "YearOfLeaving":"",
         "Achievements":[
           {
-            "Achievement": "Developing backend systems responsible for processing hacker applications and managing in-person hacker attendance."
+            "Achievement": "Contributing to the development and maintenance of Hack the 6ix's public-facing Netlify-hosted website, DigitalOcean-hosted hacker dashboard API, and Mailtrain email system utilizing Amazon SES."
+          },
+          {
+            "Achievement": "Collaborating with a team of developers to implement new features, improve system performance, and ensure data privacy and security while preserving PII security requirements."
           }
         ]
       },
