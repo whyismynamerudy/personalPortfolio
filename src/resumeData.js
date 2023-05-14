@@ -27,7 +27,7 @@ let resumeData = {
         //   "className":"fa fa-twitter"
         // }
       ],
-    "aboutme":"I am a second year student at the University of Toronto, where I'm majoring in Computer Science (with focuses in Artificial Intelligence and Computer Systems) and minoring in Mathematics and Statistics. I am a Full Stack Web Developer, and I'm currently diving deeper into Machine Learning and Aritifical Intelligence.",
+    "aboutme":"I am a third year student at the University of Toronto, where I'm majoring in Computer Science (with a focus in Artificial Intelligence) and minoring in Mathematics and Statistics. I am a Full Stack Web Developer, and I'm currently diving deeper into Machine Learning and Aritifical Intelligence.",
     "address":"Toronto, Canada",
     "website":"https://github.com/whyismynamerudy",
     "education":[
@@ -54,7 +54,8 @@ let resumeData = {
           {"name": "Data Structures and Analysis,"},
           {"name": "Calculus with Proofs,"},
           {"name": "Advanced Calculus,"},
-          {"name": "Probability, Stats, and Data Analysis I and II."}
+          {"name": "Probability, Stats, and Data Analysis I and II,"},
+          {"name": "Introduction to Machine Learning."}
         ]
       }
     ],
@@ -66,10 +67,10 @@ let resumeData = {
         "YearOfLeaving":"",
         "Achievements":[
           {
-            "Achievement": "Contributing to the development and maintenance of Hack the 6ix's public-facing Netlify-hosted website, DigitalOcean-hosted hacker dashboard API, and Mailtrain email system utilizing Amazon SES."
+            "Achievement": "Delivering modular web components and integrating them into Storybook-powered UI kits to visualize customization options using TypeScript and SCSS."
           },
           {
-            "Achievement": "Collaborating with a team of developers to implement new features, improve system performance, and ensure data privacy and security while preserving PII security requirements."
+            "Achievement": "Building seamless and interactive user experiences through responsive web pages with optimal loading times that conform to strict design specifications."
           }
         ]
       },
@@ -80,10 +81,10 @@ let resumeData = {
         "YearOfLeaving":"2022",
         "Achievements": [
           {
-            "Achievement":"Developed an automated testing suite using JavaScript and WebdriverIO for a smart Internet-Of-Things waste collection solution deployed in Doha, Qatar, with >97% automation of tests."
+            "Achievement":"Achieved >97% automation of tests by developing an automated testing suite consisting of unit, integration, end-to-end, and usability tests, using JavaScript and WebdriverIO for an Internet-Of-Things waste collection solution deployed in Doha, Qatar."
           },
           {
-            "Achievement":"Validated JSON data received from Node.js microservices hosted on Cumulocity IOT’s backend."
+            "Achievement":"Increased ease of test analysis and identification of failed tests by automatically generating color-coded HTML reports with screenshots and timestamps."
           }
         ]
       }
@@ -103,10 +104,13 @@ let resumeData = {
         "skillname":"Javascript"
       },
       {
+        "skillname":"TypeScript"
+      },
+      {
         "skillname":"MIPS Assembly"
       },
       {
-        "skillname":"Visual Basic"
+        "skillname":"SCSS"
       },
       {
         "skillname":"HTML/CSS"
