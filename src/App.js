@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
-import resumeData from './resumeData';
+import resumeData from './resumeDataMay2023';
 import {Helmet} from "react-helmet";
 
 class App extends Component {
