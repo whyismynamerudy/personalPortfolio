@@ -4,7 +4,7 @@ let resumeData = {
     // "role": "Student @ UofT",
     "linkedinId":"rudraksh-monga",
     "skypeid": "Your skypeid",
-    "roleDescription": "I am a Software Engineer based in Toronto with a passion for ML/AI, hip-hop, fitness, and aesthetics.",
+    "roleDescription": "I am a Software Engineer based in Toronto with a passion for ML/AI, hip-hop, fitness, entrepreneurship, and aesthetics.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -61,16 +61,39 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"1Kit",
+        "specialization":"Co-Founder, CTO, Lead Programmer",
+        "MonthOfLeaving":"Current",
+        "YearOfLeaving":"",
+        "Achievements":[
+          {
+            "Achievement": "Conceptualized, developed, and deployed an MVP for an innovative ed-tech productivity tool aimed at addressing challenges students face while studying using online sources."
+          },
+          {
+            "Achievement": "Utilized design docs inspired by industry-leading practices for efficient communication and collaboration among developers."
+          },
+          {
+            "Achievement": "Actively communicated with with potential users to create distinctive features to set 1Kit apart from existing products whilst effectively addressing user needs."
+          },
+          {
+            "Achievement": "Spearheaded the backend architecture of 1Kit, designing a secure and scalable infrastructure deployed on AWS."
+          },
+          {
+            "Achievement": "Optimized data storage to minimize storage requirements, effectively reducing AWS costs for the startup, while laying the foundation for future data analytics capabilities."
+          }
+        ]
+      },
+      {
         "CompanyName":"Hack the 6ix",
         "specialization":"Web Development Executive",
         "MonthOfLeaving":"Current",
         "YearOfLeaving":"",
         "Achievements":[
           {
-            "Achievement": "Delivering modular web components and integrating them into Storybook-powered UI kits to visualize customization options using TypeScript and SCSS."
+            "Achievement": "Enhanced developer experience by integrating React components into Storyboard workshops, allowing developers to easily visualize and interact with the components, facilitating rapid prototyping and efficient development."
           },
           {
-            "Achievement": "Building seamless and interactive user experiences through responsive web pages with optimal loading times that conform to strict design specifications."
+            "Achievement": "Ensured a seamless user experience by building responsive web pages with optimal loading times, meeting strict design specifications."
           }
         ]
       },
@@ -81,10 +104,13 @@ let resumeData = {
         "YearOfLeaving":"2022",
         "Achievements": [
           {
-            "Achievement":"Achieved >97% automation of tests by developing an automated testing suite consisting of unit, integration, end-to-end, and usability tests, using JavaScript and WebdriverIO for an Internet-Of-Things waste collection solution deployed in Doha, Qatar."
+            "Achievement":"Developed an automated testing suite consisting of unit, integration, end-to-end, and usability tests for an IOT waste collection solution deployed in Doha, Qatar."
           },
           {
-            "Achievement":"Increased ease of test analysis and identification of failed tests by automatically generating color-coded HTML reports with screenshots and timestamps."
+            "Achievement":"Significantly boosted test automation by achieving >97% automation of tests. This automation increased testing efficiency and reduced manual effort."
+          },
+          {
+            "Achievement":"Increased ease of test analysis and identification of failed tests by automatically generating color-coded HTML reports with screenshots and timestamps, facilitating prompt issue resolution."
           }
         ]
       }
